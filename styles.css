@@ -6,16 +6,17 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 230px;
 }
 nav > ul{
     display: flex;
     align-items: center;
 }
 nav li{
-    margin-right: 50px;
     list-style: none;
 }
 nav a{
+    margin-right: 50px;
     text-decoration: none;
     color: #181818;
 }
@@ -34,4 +35,15 @@ nav a{
     border-radius: 5px;
     border: 0;
     font-size: 15px;
+}
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    width: 500px;
 }
