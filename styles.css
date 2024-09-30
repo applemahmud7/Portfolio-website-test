@@ -1,5 +1,7 @@
 body{
     font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 nav {
@@ -38,12 +40,50 @@ nav a{
 }
 .header{
     background-color: #fff8f3;
+    background-image: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
+.banner-greetings{
+    font-size: 45px;
+    color: #474747;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
 .profile-pic{
     width: 500px;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #fff8f3;
+    margin: 130px 0px;
+}
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+
 }
