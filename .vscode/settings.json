@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
         "Mahmud"
+    ],
+    "cSpell.enableFiletypes": [
+        "!html"
     ]
 }
