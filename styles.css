@@ -40,9 +40,9 @@ nav a{
 }
 .header{
     background-color: #fff8f3;
-    background-image: url("images/header_bg.png");
+    background-image: url("images/header_bg.png"), url("images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -108,4 +108,13 @@ main{
 
 main section{
     margin-top: 130px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+}
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
